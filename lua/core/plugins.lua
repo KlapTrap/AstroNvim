@@ -273,6 +273,11 @@ local astro_plugins = {
     event = "BufWritePost",
     config = function() require "configs.session_manager" end,
   },
+  
+  -- Nathan's updates
+  
+  -- Prettier
+  ["sbdchd/neoformat"] = {}
 }
 
 if astronvim.updater.snapshot then
